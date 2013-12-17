@@ -1,0 +1,6 @@
+on play place block or destroy block, find out if they are in a protected region.
+If they are, and they do not have permission, cancel the event.
+
+Protected regions are loaded in on server startup from a dat file.
+
+MAKE SURE to create a region deletion function.
